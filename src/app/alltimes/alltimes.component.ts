@@ -61,4 +61,6 @@ export class AlltimesComponent implements OnInit {
 
   onEditComplete(editInfo) { }
 
+
+  onRowSelect(editInfo){}
 }
