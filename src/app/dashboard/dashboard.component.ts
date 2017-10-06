@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
 import { UIChart } from "primeng/primeng";
-import { Observable } from 'rxjs/Observable';
+import { Observable } from "rxjs/Observable";
 import 'rxjs/add/observable/interval';
 
 const DEFAULT_COLORS = ['#3366CC', '#DC3912', '#FF9900', '#109618', '#990099',
@@ -117,6 +117,7 @@ export class DashboardComponent implements AfterViewInit {
 
 
   ngAfterViewInit() {
+
 
   }
 
